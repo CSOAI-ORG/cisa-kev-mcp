@@ -1,0 +1,36 @@
+# cisa-kev-mcp
+# CISA Known Exploited Vulnerabilities feed + remediation deadlines for US federal + critical infrastructure operators.
+
+## Install
+```bash
+pip install cisa-kev-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label + on-premise.
+
+## Tools (5)
+
+### `query_kev_catalog(query, api_key)`
+Query CISA KEV catalog by CVE, vendor, product, date
+
+### `check_remediation_deadline(query, api_key)`
+BOD 22-01 remediation deadline + days remaining
+
+### `export_kev_sbom(query, api_key)`
+Cross-reference KEV with provided SBOM (CycloneDX)
+
+### `subscribe_alerts(query, api_key)`
+Recent additions to KEV catalog (last 7 days)
+
+### `epss_overlay(query, api_key)`
+EPSS Exploit Prediction Scoring overlay for prioritization
+
+## Pairs with
+- `meok-attestation-api` — HMAC signing for compliance certs
+- `meok-attestation-verify` — public verification
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT

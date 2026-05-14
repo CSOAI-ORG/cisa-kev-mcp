@@ -1,0 +1,13 @@
+# CISA KEV Known Exploited Vulnerabilities MCP - Auto-trigger Rules
+
+When the user asks about CISA KEV, known exploited vulnerabilities, BOD 22-01, EPSS, CVE, use cisa-kev-mcp tools:
+
+- **query_kev_catalog**: Query CISA KEV catalog by CVE, vendor, product, date
+- **check_remediation_deadline**: BOD 22-01 remediation deadline + days remaining
+- **export_kev_sbom**: Cross-reference KEV with provided SBOM (CycloneDX)
+- **subscribe_alerts**: Recent additions to KEV catalog (last 7 days)
+- **epss_overlay**: EPSS Exploit Prediction Scoring overlay for prioritization
+
+Install: `pip install cisa-kev-mcp`
+
+By MEOK AI Labs — industry governance MCP. Pairs with meok-attestation-api for signed compliance certs.
