@@ -1,0 +1,28 @@
+{
+  "name": "cisa-kev-mcp",
+  "title": "Cisa Kev Mcp",
+  "description": "CISA Known Exploited Vulnerabilities feed + remediation deadlines for US federal + critical infrastructure operators.",
+  "version": "1.0.3",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "query_kev_catalog"
+    },
+    {
+      "name": "check_remediation_deadline"
+    },
+    {
+      "name": "export_kev_sbom"
+    },
+    {
+      "name": "subscribe_alerts"
+    },
+    {
+      "name": "epss_overlay"
+    }
+  ]
+}

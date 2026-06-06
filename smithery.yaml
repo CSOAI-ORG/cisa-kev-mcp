@@ -1,0 +1,28 @@
+name: cisa-kev-mcp
+description: 'MCP server: cisa-kev-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/cisa-kev-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: query_kev_catalog
+  description: Query CISA KEV catalog by CVE, vendor, product, date
+- name: check_remediation_deadline
+  description: BOD 22-01 remediation deadline + days remaining
+- name: export_kev_sbom
+  description: Cross-reference KEV with provided SBOM (CycloneDX)
+- name: subscribe_alerts
+  description: Recent additions to KEV catalog (last 7 days)
+- name: epss_overlay
+  description: EPSS Exploit Prediction Scoring overlay for prioritization
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'
