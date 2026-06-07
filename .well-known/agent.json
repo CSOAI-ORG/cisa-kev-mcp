@@ -1,0 +1,68 @@
+{
+  "name": "cisa-kev-mcp",
+  "description": "CISA Known Exploited Vulnerabilities feed + remediation deadlines for US federal + critical infr...",
+  "url": "https://proofof.ai/scorecard/cisa-kev-mcp.html",
+  "version": "1.0.3",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "query_kev_catalog",
+      "name": "Query Kev Catalog",
+      "description": "query_kev_catalog via cisa-kev-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_remediation_deadline",
+      "name": "Check Remediation Deadline",
+      "description": "check_remediation_deadline via cisa-kev-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "export_kev_sbom",
+      "name": "Export Kev Sbom",
+      "description": "export_kev_sbom via cisa-kev-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "subscribe_alerts",
+      "name": "Subscribe Alerts",
+      "description": "subscribe_alerts via cisa-kev-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "epss_overlay",
+      "name": "Epss Overlay",
+      "description": "epss_overlay via cisa-kev-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

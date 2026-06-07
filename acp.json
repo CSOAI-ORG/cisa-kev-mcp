@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "cisa-kev-mcp",
+    "description": "CISA Known Exploited Vulnerabilities feed + remediation deadlines for US federal + critical infr...",
+    "version": "1.0.3",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "cisa-kev-mcp"
+      }
+    ],
+    "capabilities": [
+      "query_kev_catalog",
+      "check_remediation_deadline",
+      "export_kev_sbom",
+      "subscribe_alerts",
+      "epss_overlay"
+    ]
+  }
+}
