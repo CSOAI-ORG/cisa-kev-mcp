@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "cisa-kev-mcp"
 readme = "README.md"
-version = "1.0.3"
+version = "1.0.6"
 description = "CISA Known Exploited Vulnerabilities feed + remediation deadlines for US federal + critical infrastructure operators."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
