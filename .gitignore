@@ -6,3 +6,6 @@ __pycache__/.!16085!server.cpython-311.pyc
 dist/cisa_kev_mcp-1.0.6-py3-none-any.whl
 dist/cisa_kev_mcp-1.0.6.tar.gz
 pypi-publish-20260609-060323.log
+
+# Auto-added during alignment sweep
+*.pyc

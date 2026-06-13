@@ -5,7 +5,8 @@
   "description": "CISA Known Exploited Vulnerabilities feed + remediation deadlines for US federal + critical infr...",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/cisa-kev-mcp",
-    "source": "github"
+    "source": "github",
+    "id": "1238469394"
   },
   "packages": [
     {
