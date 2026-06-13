@@ -1,0 +1,117 @@
+{
+  "name": "Cisa Kev Mcp",
+  "version": "1.0.3",
+  "url": "https://mcp.meok.ai/cisa-kev-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "CISA Known Exploited Vulnerabilities feed + remediation deadlines for US federal + critical infrastructure operators.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "query_kev_catalog",
+      "name": "Query Kev Catalog",
+      "description": "Query Kev Catalog — a tool of the cisa-kev-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_remediation_deadline",
+      "name": "Check Remediation Deadline",
+      "description": "Check Remediation Deadline — a tool of the cisa-kev-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "export_kev_sbom",
+      "name": "Export Kev Sbom",
+      "description": "Export Kev Sbom — a tool of the cisa-kev-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "subscribe_alerts",
+      "name": "Subscribe Alerts",
+      "description": "Subscribe Alerts — a tool of the cisa-kev-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "epss_overlay",
+      "name": "Epss Overlay",
+      "description": "Epss Overlay — a tool of the cisa-kev-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "cisa-kev-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
