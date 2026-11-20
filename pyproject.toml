@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "cisa-kev-mcp"
 readme = "README.md"
-version = "1.0.7"
+version = "1.0.9"
 description = "CISA Known Exploited Vulnerabilities feed + remediation deadlines for US federal + critical infrastructure operators."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -17,7 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries",
 ]
-dependencies = ["mcp>=1.0.0"]
+dependencies = ["mcp>=1.0.0,<2"]
 
 [project.urls]
 Homepage = "https://meok.ai"
